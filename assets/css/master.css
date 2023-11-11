@@ -1,1 +1,101 @@
-/*# sourceMappingURL=master.css.map */
+.Oxanium {
+  font-family: "Oxanium", sans-serif;
+}
+
+.Poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-image: url(../images/Section.png);
+  background-size: 130% 130%;
+  min-height: 100vh;
+}
+
+.nav {
+  background-image: url(../images/headerBG.png);
+  color: white;
+  font-weight: 700;
+  margin: 0 auto;
+  width: 90%;
+  padding: 20px;
+  height: 100px;
+  font-family: "Oxanium", sans-serif;
+  border-radius: 0 0 20px 20px;
+}
+
+.subMenuParent {
+  position: relative;
+}
+.subMenuParent .subMenu {
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #1c1421;
+  transition: all 0.4s ease;
+  box-shadow: 0px 3px 8px 2px rgba(255, 255, 255, 0.81);
+}
+.subMenuParent .subMenu li {
+  padding: 20px 80px;
+}
+.subMenuParent:hover .subMenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.items {
+  width: 100%;
+  height: 100%;
+  transition: 0.4s;
+  position: relative;
+  z-index: 7;
+  transition: 0.4s ease all;
+}
+.items a {
+  position: relative;
+  z-index: 8;
+}
+.items::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: skewX(-16deg);
+}
+.items:hover::after {
+  background-color: #E4A101;
+  color: rgb(8, 8, 8);
+  cursor: pointer;
+}
+.items:hover > a {
+  color: rgb(8, 8, 8);
+}
+
+.hambMenuIcon {
+  scale: 2;
+  transform: rotate(90deg);
+  margin-right: 1rem;
+}
+.hambMenuIcon span {
+  padding: 3px;
+}
+.hambMenuIcon:active {
+  outline: 1px solid white;
+}
+
+.hambMenuIconChange span:nth-child(1) {
+  transform: rotate(45deg);
+}
+.hambMenuIconChange span:nth-child(2) {
+  opacity: 0;
+}
+.hambMenuIconChange span:nth-child(3) {
+  transform: rotate(-45deg);
+}/*# sourceMappingURL=master.css.map */
