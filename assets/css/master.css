@@ -253,4 +253,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   left: 0;
   opacity: 0;
   transition: 0.8s all;
+}
+
+.worldMeetGame {
+  background-image: url(../images/101.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 90vh;
 }/*# sourceMappingURL=master.css.map */
