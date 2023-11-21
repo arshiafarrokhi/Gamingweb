@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .Oxanium {
   font-family: "Oxanium", sans-serif;
 }
@@ -173,4 +177,55 @@
   100% {
     transform: skewX(-16deg) translateY(-5px);
   }
+}
+.swiperLeft {
+  width: 40%;
+  height: 400px;
+}
+
+@media screen and (max-width: 768px) {
+  .swiperLeft {
+    width: 100%;
+    height: 400px;
+  }
+}
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #E4A101 !important;
+  outline: 2px #E4A101 solid;
+  outline-offset: 4px;
+}
+
+/* target all bullets */
+.swiper-pagination-bullet {
+  background: white !important;
+  margin: 0 10px !important;
+}
+
+.paragraphColor {
+  color: #747474;
+}
+
+.playerSection {
+  height: 100vh;
+  background-image: url(../images/just_gamer_bg.jpg);
+  background-size: cover;
+}
+
+.circle2 {
+  animation: rotate 50s infinite linear;
 }/*# sourceMappingURL=master.css.map */
