@@ -18,7 +18,7 @@ html {
     background-image: url(../images/Section.png);
     background-size: 130% 130% auto;
     background-repeat: no-repeat;
-    height: 110vh;
+    // min-height: 110vh;
     overflow: hidden;
     z-index: 1;
 }
@@ -34,7 +34,7 @@ html {
     font-family: 'Oxanium', sans-serif;
     border-radius: 0 0 20px 20px;
     position: relative;
-    z-index: 5;
+
 }
 
 
@@ -244,7 +244,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 
 .playerSection {
-    height: 100vh;
+    // min-height: 5vh;
     background-image: url(../images/just_gamer_bg.jpg);
     background-size: cover
 }
@@ -253,23 +253,25 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     animation: rotate 50s infinite linear;
 }
 
-.gameCard{
+.gameCard {
     position: relative;
     overflow: hidden;
     transition: .8s all;
     box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.51);
-    
 
-    &:hover .infoHover{
+
+
+    &:hover .infoHover {
         opacity: 1;
         transition: .8s all;
     }
-    &:hover .gameCardFigCaption{
+
+    &:hover .gameCardFigCaption {
         opacity: 0;
         transition: .8s all;
     }
 
-    .infoHover{
+    .infoHover {
         width: 100%;
         height: 100%;
         background-color: rgba(233, 163, 1, 0.749);
@@ -281,9 +283,110 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     }
 }
 
-.worldMeetGame{
+.worldMeetGame {
     background-image: url(../images/101.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 90vh;
+    // min-height: 90vh;
+}
+
+
+
+.swiperShop {
+    background: #1c181e !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.swiper-slide {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    text-align: center !important;
+    font-size: 18px !important;
+    background: #fff !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: #1c181e !important;
+}
+
+.swiper-slide img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    transform: translateY(150px);
+    color: rgb(134, 134, 134) !important;
+    padding: 35px !important;
+    border: 4px solid rgb(134, 134, 134);
+    font-size: 1px !important;
+    scale: .6;
+    transition: .4s;
+
+    &:hover {
+        color: #E4A101 !important;
+        border: 4px solid #E4A101;
+    }
+}
+
+.shopCard {
+    box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.51);
+    background: #1c181e !important;
+
+}
+
+.gameCardtwo {
+    box-shadow: 0px 0px 25px 2px rgba(0, 0, 0, 0.51);
+}
+
+.inputFooter {
+    width: 75%;
+    background: #262228 !important;
+    transform: skewX(-16deg);
+    height: 50px;
+
+    &::placeholder {
+        color: #a0a0a0 !important;
+        padding: 0 10px;
+        transform: skewX(16deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .inputFooter {
+        width: 100%;
+    }
+}
+
+
+.footer {
+    background-image: url(../images/111.jpg);
+}
+
+.underLine {
+    display: flex;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 13%;
+        height: 5px;
+        background: #E4A101;
+        transform: skewX(-16deg);
+
+    }
+}
+
+.fixMenu {
+    top: -40px;
+    transform: translateY(40px);
+    transition: 2s;
+    box-shadow: 0px 12px 38px -10px rgba(0,0,0,0.5);
 }

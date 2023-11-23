@@ -7,34 +7,28 @@
     <title>Geco - eSports Gaming</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- tailwind cdn -->
-
     <link rel="stylesheet" href="assets/css/master.css">
     <!-- master css -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oxanium&display=swap" rel="stylesheet">
     <!-- font-family: 'Oxanium', sans-serif; -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- font-family: 'Poppins', sans-serif; -->
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <!-- bootstrap icon -->
-
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Aos -->
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- swiper css -->
 </head>
 
 <body class="body">
-    <main class="w-full 2xl:container mx-auto">
+    <main class="w-full 2xl:container mx-auto relative">
         <header class="header relative">
-            <nav class="nav flex items-center justify-between">
+            <nav id="nav" class="nav z-[999] flex items-center justify-between">
                 <figure>
                     <img src="assets/images/logo.png" alt="logo">
                 </figure>
@@ -118,7 +112,7 @@
                 a remote island for winner takes showdown known issue where certain skin strategic</p>
             <img class="my-6" src="assets/images/pseudo.png" alt="">
             <div class="w-full flex flex-col md:flex-row justify-end items-start shadow-2xl md:p-[50px] p-[5px]">
-                <div class="swiperLeft mySwiperLeft ">
+                <div class="swiperLeft z-0 mySwiperLeft ">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <img src="assets/images/11.jpg" />
@@ -133,7 +127,8 @@
                     <div class="swiper-paginationLeft flex items-center justify-center h-6 -m-8 relative z-[1]"></div>
                 </div>ّ
                 <div class="card Poppins w-full ml-10">
-                    <h2 class=" relative font-extrabold md:text-3xl text-xl mx-5 my-4">Monster <span class="text-white"">Hunter</span>
+                    <h2 class="translate-y-4 relative font-extrabold md:text-3xl text-xl mx-5 my-4">Monster <span
+                            class="text-white"">Hunter<vscode-file://vscode-app/c:/Users/ArshiaFarrokhi/AppData/Local/Programs/Microsoft%20VS%20Code/resources/app/out/vs/code/electron-sandbox/workbench/workbench.html/span>
                         <img class=" absolute -top-1 -left-16 -z-10" src="assets/images/pseudo bg.png" alt="">
                     </h2>
                     <p class="font-bold md:mx-5 mx-1 my-6">category : <span class="paragraphColor">Virtual Game</span>
@@ -301,7 +296,8 @@
             </div>
             <div class="w-[50%] mt-12 flex flex-col items-center md:items-start md:justify-start justify-center">
                 <img class="mb-4" src="assets/images/103.png" alt="">
-                <h1 class="text-white text-[40px] font-black my-2">WORLDS MEET <span class="text-[#E4A101]">REAL</span>
+                <h1 class="text-white text-[40px] font-black my-2 whitespace-nowrap">WORLDS MEET <span
+                        class="text-[#E4A101]">REAL</span>
                 </h1>
                 <p class="Poppins text-[15px] w-[90%] text-[#c6c6c6] md:text-start text-center my-4">Compete with 100
                     player on a remote island for winner known issue where certain strategic</p>
@@ -312,9 +308,225 @@
         </section>
         <!--- end 5nd 100vh section ---->
         <!--- start 6nd 100vh section ---->
-        <section>
-            
+        <section class="flex flex-col justify-center items-center md:p-[75px] p-2 relative pt-11 bg-[#1C181E]">
+            <div class=" flex flex-col md:w-[40%] w-[80%] items-center justify-center">
+                <h1 class=" Oxanium text-white text-[36px] font-black whitespace-nowrap">GAMING PRODUCTS <span
+                        class="text-[#E4A101]">CORNER</span></h1>
+                <p class="Poppins text-[15px] text-[#c6c6c6] my-6 text-center">Compete with 100 players on a remote
+                    island for winner takes showdown known issue where certain skin strategic</p>
+                <img src="assets/images/pseudo GOLD.png" alt="">
+            </div>
+            <div class="swiperShop z-0 overflow-hidden mySwiperShop">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide shopCard ">
+                        <figure>
+                            <img class="h-[70%] w-full" src="assets/images/104.jpg" alt="">
+                            <figcaption class="h-[30%] w-full flex items-center justify-center flex-col Oxanium">
+                                <a class="Poppins text-sm font-bold bg-[#E4A101] readMoreButton
+                                    cursor-pointer z-50 my-4 " href="">Grapics</a>
+                                <h5 class="text-white">GeForce RTX 2070</h5>
+                                <div class="flex justify-around w-full my-4">
+                                    <p class="bg-[#1C1A1D]">🛒</p>
+                                    <h6 class="text-[#E4A101]">29.99$</h6>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide shopCard ">
+                        <figure>
+                            <img class="h-[70%] w-full" src="assets/images/105.jpg" alt="">
+                            <figcaption class="h-[30%] w-full flex items-center justify-center flex-col Oxanium">
+                                <a class="Poppins text-sm font-bold bg-[#E4A101] readMoreButton
+                                    cursor-pointer z-50 my-4 " href="">Grapics</a>
+                                <h5 class="text-white">GeForce RTX 2070</h5>
+                                <div class="flex justify-around w-full my-4">
+                                    <p class="bg-[#1C1A1D]">🛒</p>
+                                    <h6 class="text-[#E4A101]">29.99$</h6>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide shopCard ">
+                        <figure>
+                            <img class="h-[70%] w-full" src="assets/images/106.jpg" alt="">
+                            <figcaption class="h-[30%] w-full flex items-center justify-center flex-col Oxanium">
+                                <a class="Poppins text-sm font-bold bg-[#E4A101] readMoreButton
+                                    cursor-pointer z-50 my-4 " href="">Grapics</a>
+                                <h5 class="text-white">GeForce RTX 2070</h5>
+                                <div class="flex justify-around w-full my-4">
+                                    <p class="bg-[#1C1A1D]">🛒</p>
+                                    <h6 class="text-[#E4A101]">29.99$</h6>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide shopCard">
+                        <figure>
+                            <img class="h-[70%] w-full" src="assets/images/107.jpg" alt="">
+                            <figcaption class="h-[30%] w-full flex items-center justify-center flex-col Oxanium">
+                                <a class="Poppins text-sm font-bold bg-[#E4A101] readMoreButton
+                                    cursor-pointer z-50 my-4 " href="">Grapics</a>
+                                <h5 class="text-white">GeForce RTX 2070</h5>
+                                <div class="flex justify-around w-full my-4">
+                                    <p class="bg-[#1C1A1D]">🛒</p>
+                                    <h6 class="text-[#E4A101]">29.99$</h6>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide shopCard ">
+                        <figure>
+                            <img class="h-[70%] w-full" src="assets/images/104.jpg" alt="">
+                            <figcaption class="h-[30%] w-full flex items-center justify-center flex-col Oxanium">
+                                <a class="Poppins text-sm font-bold bg-[#E4A101] readMoreButton
+                                    cursor-pointer z-50 my-4 " href="">Grapics</a>
+                                <h5 class="text-white">GeForce RTX 2070</h5>
+                                <div class="flex justify-around w-full my-4">
+                                    <p class="bg-[#1C1A1D]">🛒</p>
+                                    <h6 class="text-[#E4A101]">29.99$</h6>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide shopCard ">
+                        <figure>
+                            <img class="h-[70%] w-full" src="assets/images/105.jpg" alt="">
+                            <figcaption class="h-[30%] w-full flex items-center justify-center flex-col Oxanium">
+                                <a class="Poppins text-sm font-bold bg-[#E4A101] readMoreButton
+                                    cursor-pointer z-50 my-4 " href="">Grapics</a>
+                                <h5 class="text-white">GeForce RTX 2070</h5>
+                                <div class="flex justify-around w-full my-4">
+                                    <p class="bg-[#1C1A1D]">🛒</p>
+                                    <h6 class="text-[#E4A101]">29.99$</h6>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide shopCard ">
+                        <figure>
+                            <img class="h-[70%] w-full" src="assets/images/106.jpg" alt="">
+                            <figcaption class="h-[30%] w-full flex items-center justify-center flex-col Oxanium">
+                                <a class="Poppins text-sm font-bold bg-[#E4A101] readMoreButton
+                                    cursor-pointer z-50 my-4 " href="">Grapics</a>
+                                <h5 class="text-white">GeForce RTX 2070</h5>
+                                <div class="flex justify-around w-full my-4">
+                                    <p class="bg-[#1C1A1D]">🛒</p>
+                                    <h6 class="text-[#E4A101]">29.99$</h6>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="swiper-slide shopCard ">
+                        <figure>
+                            <img class="h-[70%] w-full" src="assets/images/107.jpg" alt="">
+                            <figcaption class="h-[30%] w-full flex items-center justify-center flex-col Oxanium">
+                                <a class="Poppins text-sm font-bold bg-[#E4A101] readMoreButton
+                                    cursor-pointer z-50 my-4 " href="">Grapics</a>
+                                <h5 class="text-white">GeForce RTX 2070</h5>
+                                <div class="flex justify-around w-full my-4">
+                                    <p class="bg-[#1C1A1D]">🛒</p>
+                                    <h6 class="text-[#E4A101]">29.99$</h6>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-button-next "></div>
+            <div class="swiper-button-prev "></div>
         </section>
+        <!--- end 6nd 100vh section ---->
+        <!--- start 7nd 100vh section ---->
+        <section class="flex flex-col justify-center items-center md:p-[75px] p-2 relative pt-11 mb-12">
+            <div class=" flex flex-col md:w-[40%] w-[80%] items-center justify-center">
+                <h1 class=" Oxanium text-black text-[36px] font-black whitespace-nowrap">GAMING PRODUCTS <span
+                        class="text-[#E4A101]">CORNER</span></h1>
+                <p class="Poppins text-[15px] text-[#6c6c6c] my-6 text-center">Compete with 100 players on a remote
+                    island for winner takes showdown known issue where certain skin strategic</p>
+                <img src="assets/images/pseudo.png" alt="">
+            </div>
+            <div class="flex mt-12 lg:flex-row flex-col items-center flex-wrap justify-between ">
+                <div class=" lg:mb-0 mb-60 lg:w-[28%] w-[100%] h-[200px]  gameCardtwo">
+                    <img class="hover:scale-110 transition-all object-cover w-full relative" src="assets/images/110.jpg"
+                        alt="">
+                    <h1 class=" Oxanium text-black text-[30px] my-6  font-black ">GAMING PRODUCTS CORNER</h1>
+                    <p class="Poppins text-[15px] text-[#6c6c6c]">Compete with 100 players on a remote
+                        island for winner takes showdown known issue where certain skin strategic</p>
+                </div>
+                <div class=" lg:mb-0 mb-60 lg:w-[28%] w-[100%] h-[200px] mx-6 gameCardtwo ">
+                    <img class="hover:scale-110 transition-all object-cover w-full relative" src="assets/images/109.jpg"
+                        alt="">
+                    <h1 class=" Oxanium text-black text-[30px] my-6  font-black ">GAMING PRODUCTS CORNER</h1>
+                    <p class="Poppins text-[15px] text-[#6c6c6c]">Compete with 100 players on a remote
+                        island for winner takes showdown known issue where certain skin strategic</p>
+                </div>
+                <div class=" lg:mb-0 mb-8 lg:w-[28%] w-[100%] h-[200px] mx-6 gameCardtwo ">
+                    <img class="hover:scale-110 transition-all object-cover w-full relative" src="assets/images/108.jpg"
+                        alt="">
+                    <h1 class=" Oxanium text-black text-[30px] my-6  font-black ">GAMING PRODUCTS CORNER</h1>
+                    <p class="Poppins text-[15px] text-[#6c6c6c]">Compete with 100 players on a remote
+                        island for winner takes showdown known issue where certain skin strategic</p>
+                </div>
+            </div>
+        </section>
+        <!--- end 7nd 100vh section ---->
+        <!--- start footer ---->
+        <footer class=" flex flex-col justify-center items-center lg:px-[180px] px-12 py-4 mt-80 footer relative Poppins">
+            <div class="flex bg-[#1C181E] items-center flex-col lg:flex-row justify-between p-14 rounded-full w-full translate-y-0 lg:-translate-y-28">
+                <h2 class=" Oxanium text-white text-[36px] font-black whitespace-nowrap">OUR <span
+                        class="text-[#E4A101]">NEWSLETTER</span></h2>
+                <div class="flex items-center justify-center lg:justify-end w-full ">
+                    <input class="inputFooter" placeholder="✉️ Enter Your Email..." type="text">
+                    <a class="Poppins text-sm font-bold bg-[#E4A101] readMoreButton
+                    cursor-pointer z-50 my-4 " href="" #>SUBSCRIBE</a>
+                </div>
+            </div>
+            <div class="flex justify-between text-[#c8c8c8] flex-col lg:flex-row h-full w-full">
+                <img class="absolute hidden lg:flex z-0 right-0" src="assets/images/112.png" alt="">
+                <img class="absolute hidden lg:flex z-0 left-0" src="assets/images/112.png" alt="">
+                <div class="mt-4 md:mt-0 md:w-[30%] w-[100%] h-full  justify-center flex flex-col">
+                    <img class="w-[40%]" src="assets/images/logo.png" alt="">
+                    <p class="w-[70%] my-4">Gemas marketplace the relase etras thats sheets continig passag.</p>
+                    <p class="w-[70%]">Address : PO Box W75 Street lan West new queens</p>
+                    <p class="my-4">Phone : +24 1245 654 235</p>
+                    <p>Email : arshiafarrokhi@gmail.com</p>
+                </div>
+                <div class="mt-4 md:mt-0 lg:w-[20%] w-[100%] h-full  justify-center flex flex-col">
+                    <h5 class="Oxanium text-[16px] font-extrabold mb-12 underLine">PRODUCTS</h5>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">Graphics (26)</p>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">Backgrounds (11)</p>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">Fonts (9)</p>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">Music (3)</p>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">Photography (3)</p>
+                </div>
+                <div class="mt-4 md:mt-0 lg:w-[20%] w-[100%] h-full justify-center flex flex-col">
+                    <h5 class="Oxanium text-[16px] font-extrabold mb-12 underLine">NEED HELP?</h5>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">Terms & Conditions</p>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">Privacy Policy</p>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">Refund Policy</p>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">Affiliate</p>
+                    <p class="my-1 hover:text-[#e4a101] hover:translate-x-2 transition-all">FAQUse Cases</p>
+                </div>
+                <div class="mt-4 md:mt-0 lg:w-[30%] w-[100%] h-full justify-center flex flex-col">
+                    <h5 class="mb-16 underLine">FOLLOW US</h5>
+                    <div class="flex">
+                        <i class="mr-6 text-[#e4a101] bi bi-instagram"></i>
+                        <i class="mr-6 text-[#e4a101] bi bi-facebook"></i>
+                        <i class="mr-6 text-[#e4a101] bi bi-twitter"></i>
+                        <i class="mr-6 text-[#e4a101] bi bi-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="flex items-center justify-center py-8 text-white bg-[#161417]">
+            Made With Love  <a class="text-[#e4a101]" href="https://arshiafarrokhi.com/"> Arshia Farrokhi</a>
+        </div>
+
+        <div style="display: none;"  id="GoToTopButton" class="shadow-xl rounded-lg w-[50px] h-[50px] transition-all flex items-center justify-center cursor-pointer text-[30px] text-[#e4a101] bg-[#161417] p-2 fixed bottom-10 right-10 z-50">
+            <i class=" bi bi-arrow-up"></i>
+        </div>
+
     </main>
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -328,10 +540,6 @@
     var swiperLeft = new Swiper(".mySwiperLeft", {
         spaceBetween: 30,
         effect: "fade",
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
         autoplay: {
             delay: 1500,
             reverseDirection: true,
@@ -344,8 +552,49 @@
     });
 </script>
 
+<script>
+    var swiperShop = new Swiper(".mySwiperShop", {
+        slidesPerView: 4,
+        spaceBetween: 10,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        autoplay: {
+            delay: 1500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+            },
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            768: {
+                slidesPerView: 3,
+                spaceBetween: 10,
+            },
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 10,
+            },
+        },
+    });
+</script>
 <!-- swiper -->
-
 <script src="assets/js/hambMenu.js"></script>
-
+<!-- hambmenu -->
+<script src="assets/js/GoToTopButton.js"></script>
+<!-- go to top button -->
+<script src="assets/js/fixNavbar.js"></script>
+<!-- fixed menu -->
 </html>
