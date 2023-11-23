@@ -1,10 +1,10 @@
 <br/>
 <p align="center">
-  <a href="https://arshiafarrokhi.github.io/KalleSite/">
+  <a href="https://arshiafarrokhi.github.io/Gamingweb/">
     <img src="assets/images/logo.png" alt="Logo" width="200" height="80">
   </a>
 
-  <h3 align="center">KalleSite</h3>
+  <h3 align="center">GaminWebsite</h3>
 
   <p align="center">
     You can get more information from my personal website
