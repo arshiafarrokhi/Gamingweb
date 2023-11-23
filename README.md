@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://arshiafarrokhi.github.io/KalleSite/">
-    <img src="assets/images/logo.png" alt="Logo" width="250" height="150">
+    <img src="assets/images/logo.png" alt="Logo" width="300" height="80">
   </a>
 
   <h3 align="center">KalleSite</h3>
